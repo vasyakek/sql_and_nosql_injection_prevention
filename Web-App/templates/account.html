@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/styles.css">
+    <meta charset="UTF-8">
+    <title>Account</title>
+</head>
+<body  class="center vertical_center1 vertical_center2 p3">
+    <h3 class="relative">Hello, {{ session['username'] }}</h3>
+    <form action="/logout" >
+                <input type="submit" value="Logout" class="button-1"/>
+    </form>
+</body>
+</html>
